@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "name": "量子星辰",
+    "description": "由高中生组成的AI创新团队，专注于教育科技和人工智能应用开发，致力于打造下一代学习平台。",
+    "logo": "https://via.placeholder.com/100x100/4F46E5/FFFFFF?text=量子",
+    "website": "https://quantum-star.example.com",
+    "tags": ["AI", "教育科技", "杭州", "11-20人"],
+    "location": "杭州",
+    "size": "11-20人",
+    "founder": {
+      "name": "李明轩",
+      "avatar": "https://via.placeholder.com/50x50/10B981/FFFFFF?text=李"
+    },
+    "socials": {
+      "twitter": "https://twitter.com/quantumstar",
+      "github": "https://github.com/quantum-star",
+      "website": "https://quantum-star.example.com"
+    },
+    "news": [
+      {
+        "title": "发布AI学习助手Beta版本",
+        "url": "https://quantum-star.example.com/blog/ai-assistant-beta",
+        "date": "2024-12-15"
+      },
+      {
+        "title": "获得市级青少年科技创新大赛一等奖",
+        "url": "https://quantum-star.example.com/blog/innovation-award",
+        "date": "2024-12-01"
+      },
+      {
+        "title": "团队成员在NeurIPS发表研究论文",
+        "url": "https://quantum-star.example.com/blog/neurips-paper",
+        "date": "2024-11-20"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "CodeKids",
+    "description": "青少年编程教育平台，通过游戏化学习让编程变得有趣，已帮助超过1000名学生学习编程。",
+    "logo": "https://via.placeholder.com/100x100/F59E0B/FFFFFF?text=Code",
+    "website": "https://codekids.example.com",
+    "tags": ["编程教育", "游戏化", "北京", "6-10人"],
+    "location": "北京",
+    "size": "6-10人",
+    "founder": {
+      "name": "王小芳",
+      "avatar": "https://via.placeholder.com/50x50/EC4899/FFFFFF?text=王"
+    },
+    "socials": {
+      "github": "https://github.com/codekids",
+      "website": "https://codekids.example.com"
+    },
+    "news": [
+      {
+        "title": "推出Python编程入门课程",
+        "url": "https://codekids.example.com/courses/python",
+        "date": "2024-12-10"
+      },
+      {
+        "title": "与50所学校建立合作关系",
+        "url": "https://codekids.example.com/blog/school-partnership",
+        "date": "2024-11-25"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "EcoTech创新社",
+    "description": "专注于环保科技的创新团队，开发智能垃圾分类系统和可持续发展监测平台。",
+    "logo": "https://via.placeholder.com/100x100/059669/FFFFFF?text=Eco",
+    "website": "https://ecotech.example.com",
+    "tags": ["环保科技", "可持续发展", "深圳", "5-10人"],
+    "location": "深圳",
+    "size": "5-10人",
+    "founder": {
+      "name": "张环保",
+      "avatar": "https://via.placeholder.com/50x50/059669/FFFFFF?text=张"
+    },
+    "socials": {
+      "twitter": "https://twitter.com/ecotech_teen",
+      "github": "https://github.com/ecotech-teen"
+    },
+    "news": [
+      {
+        "title": "智能垃圾分类系统获得专利",
+        "url": "https://ecotech.example.com/blog/patent",
+        "date": "2024-12-05"
+      }
+    ]
+  }
+]

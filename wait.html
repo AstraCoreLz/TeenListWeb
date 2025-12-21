@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeenList - Find Your Teen Crew</title>
+    <meta name="description" content="TeenList是一个专注于8至18岁青少年创造者与团队的精选名录。我们记录并连接这一代的年轻建造者，帮助他们找到自己的团队与同行者。">
+    <link rel="canonical" href="https://teenlist.org">
+    <meta property="og:title" content="TeenList - Find Your Teen Crew">
+    <meta property="og:description" content="青少年创造者与团队名录，寻找你的同行者。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://teenlist.org">
+    <meta property="og:image" content="https://teenlist.org/static/icon.ico">
+    <link rel="icon" href="https://teenlist.org/static/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://teenlist.org/static/icon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif}
+        body{background:#fff;color:#000;min-height:100vh;display:flex;flex-direction:column;line-height:1.6}
+        .lang-toggle {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+        .lang-btn {
+            padding: 6px 16px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 2px;
+            background: transparent;
+            color: #000;
+            border: 1px solid #ccc;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .lang-btn:hover {
+            border-color: #000;
+            background: #f5f5f5;
+        }
+        .main-box{max-width:800px;margin:0 auto;padding:20px;flex-grow:1;display:flex;flex-direction:column;justify-content:center;position:relative}
+        .dabiaoti{font-size:clamp(3rem,10vw,5rem);font-weight:700;letter-spacing:-0.02em;margin-bottom:2rem;user-select:none;cursor:default}
+        .fubiaoti{font-size:clamp(1.8rem,5vw,2.5rem);font-weight:600;margin-bottom:3rem;color:#222}
+        .neirong{font-size:1.125rem;font-weight:400;color:#444;margin-bottom:3rem}
+        .neirong p{margin-bottom:1.5rem}
+        .fenlei-tips{font-size:1rem;color:#666;margin-bottom:0.75rem;font-weight:500}
+        .fenlei-kuang{display:flex;gap:2rem;margin-bottom:3rem;flex-wrap:wrap}
+        .fenlei-x{font-size:1rem;font-weight:500;padding-bottom:0.5rem;border-bottom:2px solid #000}
+        .anniu-qu{display:flex;flex-direction:column;gap:1rem;margin-bottom:4rem}
+        .anniu-shang{font-size:0.95rem;color:#555;font-weight:400;margin-bottom:0.5rem}
+        .anniu{padding:0.9rem 2rem;font-size:1rem;font-weight:500;text-decoration:none;border-radius:2px;transition:all 0.2s ease;text-align:center}
+        .anniu-hei{background:#000;color:#fff;border:1px solid #000}
+        .anniu-hei:hover{background:#222}
+        .anniu-bai{background:transparent;color:#000;border:1px solid #ccc}
+        .anniu-bai:hover{border-color:#000}
+        .jiao{text-align:center;padding:2rem 0;font-size:0.875rem;color:#888;border-top:1px solid #eee}
+        .jiao a{color:#444;text-decoration:none;font-weight:500}
+        .jiao a:hover{color:#000;text-decoration:underline}
+        a.waibu{color:#000;font-weight:500;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+        a.waibu:hover{text-decoration-thickness:2px}
+        .yincang-le{display:none}
+        #linshi-rongqi{opacity:0;height:0;overflow:hidden}
+        .beiyong-geshi{font-family:monospace;white-space:pre;background:#f9f9f9;border-left:3px solid #ccc;padding:1em}
+    </style>
+</head>
+<body>
+    <div class="lang-toggle">
+        <a href="/en" class="lang-btn">English</a>
+    </div>
+    
+    <div class="main-box">
+        <div class="dabiaoti">TeenList</div>
+        <h1 class="fubiaoti">记录并连接<br>这一代的创造者。</h1>
+        <div class="neirong">
+        <p>Find Your Teen Crew</p>
+            <p>我们受 <a href="https://fancyteams.cn" target="_blank" class="waibu">FancyTeams</a> 的启发，但将目光转向更早的起点。</p>
+            <p>这里是一个专注于 <b>8 至 18 岁</b> 青少年创造者以及青少年团队的名录。我们不排名，只呈现。</p>
+            <p>如果你也在独自建造什么——一个项目、一种技能、一个不断生长的想法——你会发现，值得被看见的从来不只是成果，更是<b>那个正在动手的、真实的你</b>。</p>
+            <p>在此之上，找到你的同行者。</p>
+        </div>
+        <div class="fenlei-tips">我们分为这两个大类：</div>
+        <div class="fenlei-kuang">
+            <div class="fenlei-x">团队 · 组织</div>
+            <div class="fenlei-x">个人 · 创造者</div>
+        </div>
+        <div class="anniu-qu">
+            <p class="anniu-shang">如果你正想加入某个团队做一个项目，又或者想找一个和你一起做项目的 Co-Founder，欢迎你成为TeenList的第一批“同行者”。</p>
+            <a href="https://astracore.feishu.cn/wiki/ZAYfwqLG1iyO0mkfetCcB5xTn6f" class="anniu anniu-bai">查看文档</a>
+        </div>
+    </div>
+    <div class="jiao">
+        <p>本网站由 <a href="https://lz-s.cn" target="_blank">AstraCore量子星辰</a> 驱动。<br>Copyright © 2025 TeenList.org 保留所有权利。</p>
+    </div>
+</body>
+</html>
