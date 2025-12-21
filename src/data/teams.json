@@ -2,36 +2,26 @@
   {
     "id": "1",
     "name": "量子星辰",
-    "description": "由高中生组成的AI创新团队，专注于教育科技和人工智能应用开发，致力于打造下一代学习平台。",
+    "description": "AstraCore量子星辰是一个由青少年主导的多元化社群，我们致力于让青少年们的想法及ideas落地。",
     "logo": "https://hacks.lz-s.cn/logo.png",
     "website": "https://lz-s.cn",
-    "tags": ["AI", "教育科技", "杭州", "11-20人"],
-    "location": "杭州",
-    "size": "11-20人",
+    "tags": ["ideas", "梦想落地"],
+    "location": "线上",
+    "size": "不限人数",
     "founder": {
-      "name": "李明轩",
-      "avatar": "https://via.placeholder.com/50x50/10B981/FFFFFF?text=李"
+      "name": "BillW Gong",
+      "avatar": "https://lz-s.cn/b.jpg"
     },
     "socials": {
-      "twitter": "https://twitter.com/quantumstar",
-      "github": "https://github.com/quantum-star",
-      "website": "https://quantum-star.example.com"
+      "twitter": "https://twitter.com/astracorelz",
+      "github": "https://github.com/astracorelz",
+      "website": "https://lz-s.cn"
     },
     "news": [
       {
-        "title": "发布AI学习助手Beta版本",
-        "url": "https://quantum-star.example.com/blog/ai-assistant-beta",
-        "date": "2024-12-15"
-      },
-      {
-        "title": "获得市级青少年科技创新大赛一等奖",
-        "url": "https://quantum-star.example.com/blog/innovation-award",
-        "date": "2024-12-01"
-      },
-      {
-        "title": "团队成员在NeurIPS发表研究论文",
-        "url": "https://quantum-star.example.com/blog/neurips-paper",
-        "date": "2024-11-20"
+        "title": "欢迎 RayZe Zhu 加入AstraCore量子星辰",
+        "url": "https://x.com/AstraCoreLz/status/2000136338885206441",
+        "date": "2025-12-14"
       }
     ]
   }

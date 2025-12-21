@@ -1,31 +1,19 @@
 [
   {
     "id": "1",
-    "name": "陈创新",
-    "role": "AI开发者 & 学生",
-    "bio": "16岁高中生，热爱人工智能和机器学习。正在开发教育AI助手，希望用技术改变学习方式。",
-    "avatar": "https://via.placeholder.com/150x150/3B82F6/FFFFFF?text=陈",
-    "coverImage": "https://via.placeholder.com/400x200/E0E7FF/4F46E5?text=AI+Innovation",
-    "tags": ["Python", "机器学习", "TensorFlow", "教育科技"],
+    "name": "Yirui Lin",
+    "role": "PM&Dev",
+    "bio": "♀16y/o HS student | Newly-minted PM & Dev //  @AstraCoreLz member | 『LinkUp!』Dev&HR｜Founder of @YOUTHGALA_PLAN @TeenListX  /// Sticking to what I love   ",
+    "avatar": "https://lz-s.cn/yiruilin.webp",
+    "coverImage": "/src/data/hotpot/y.jpg",
+    "tags": ["产品经理", "开发者"],
     "age": 16,
-    "location": "上海",
-    "projects": [
-      {
-        "name": "智能学习助手",
-        "url": "https://github.com/chen-innovation/ai-tutor",
-        "description": "基于GPT的教育AI助手，帮助学生个性化学习"
-      },
-      {
-        "name": "数学题目生成器",
-        "url": "https://math-generator.example.com",
-        "description": "自动生成个性化数学练习题"
-      }
-    ],
+    "location": "深圳",
+    "projects": [],
     "socials": {
-      "github": "https://github.com/chen-innovation",
-      "bonjour": "https://bonjour.bio/astracore",
-      "twitter": "https://twitter.com/chen_ai_teen",
-      "website": "https://chen-innovation.example.com"
+      "github": "https://github.com/YiruiLinshit",
+      "bonjour": "https://bonjour.bio/yirui",
+      "twitter": "https://twitter.com/yiruiilin"
     }
   },
   {
@@ -34,7 +22,7 @@
     "role": "Web Dev & Buinder and Founder",
     "bio": "14y.o. Turning ideas into too Is that solve real probelms.",
     "avatar": "https://lz-s.cn/b.jpg",
-    "coverImage": "src/data/hotpot/t.png",
+    "coverImage": "/src/data/hotpot/t.png",
     "tags": ["开发者", "创始人", "活动组织"],
     "age": 14,
     "location": "深圳",

@@ -1,5 +1,6 @@
 import React from 'react';
-import { ExternalLink, MapPin, Briefcase, Calendar, Mail, Linkedin, Instagram, Youtube, Tv, Globe } from 'lucide-react';
+import { ExternalLink, MapPin, Briefcase, Mail, Linkedin, Instagram, Youtube, Tv, Globe } from 'lucide-react';
+import { cn } from '@/lib/utils';
 import { Individual } from '../types';
 
 interface IndividualCardProps {
@@ -60,31 +61,50 @@ export const IndividualCard: React.FC<IndividualCardProps> = ({ individual }) =>
 
         {/* Projects */}
         {individual.projects.length > 0 && (
-          <div className="mb-6">
+          <div className={cn('mb-6', individual.projects.length === 1 && 'mb-4')}>
             <h4 className="text-sm font-semibold text-gray-900 mb-3 flex items-center">
               <Briefcase className="w-4 h-4 mr-2" />
               项目经历
             </h4>
-            <div className="space-y-3">
-              {individual.projects.slice(0, 2).map((project, index) => (
-                <div key={index} className="bg-gray-50 rounded-lg p-3">
-                  <div className="flex items-center justify-between">
-                    <h5 className="font-medium text-gray-900">{project.name}</h5>
-                    {project.url && (
-                      <a
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:text-blue-700"
-                      >
-                        <ExternalLink className="w-4 h-4" />
-                      </a>
-                    )}
-                  </div>
-                  <p className="text-sm text-gray-600 mt-1">{project.description}</p>
+            {individual.projects.length === 1 ? (
+              <div className="bg-gray-50 rounded-lg p-3 flex items-center justify-between">
+                <div className="pr-3">
+                  <h5 className="font-medium text-gray-900">{individual.projects[0].name}</h5>
+                  <p className="text-sm text-gray-600 mt-1">{individual.projects[0].description}</p>
                 </div>
-              ))}
-            </div>
+                {individual.projects[0].url && (
+                  <a
+                    href={individual.projects[0].url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-700 shrink-0"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                )}
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {individual.projects.slice(0, 2).map((project, index) => (
+                  <div key={index} className="bg-gray-50 rounded-lg p-3">
+                    <div className="flex items-center justify-between">
+                      <h5 className="font-medium text-gray-900">{project.name}</h5>
+                      {project.url && (
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:text-blue-700"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                        </a>
+                      )}
+                    </div>
+                    <p className="text-sm text-gray-600 mt-1">{project.description}</p>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
