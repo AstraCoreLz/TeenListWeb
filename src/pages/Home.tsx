@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Header } from '../components/Header';
 import { Hero } from '../components/Hero';
 import { ToggleSwitch } from '../components/ToggleSwitch';
 import { TeamCard } from '../components/TeamCard';
 import { IndividualCard } from '../components/IndividualCard';
-import { ApplyButton } from '../components/ApplyButton';
-import { ApplyModal } from '../components/ApplyModal';
 import { useAppStore } from '../store/appStore';
 import { Team, Individual } from '../types';
 
@@ -15,14 +13,13 @@ import individualsData from '../data/individuals.json';
 
 export const Home: React.FC = () => {
   const { viewMode, setViewMode } = useAppStore();
-  const [isApplyModalOpen, setIsApplyModalOpen] = useState(false);
 
   const teams = teamsData as Team[];
   const individuals = individualsData as Individual[];
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header onApplyClick={() => setIsApplyModalOpen(true)} />
+      <Header />
       
       <main className="pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-6">
@@ -47,15 +44,8 @@ export const Home: React.FC = () => {
             </div>
           )}
 
-          {/* 关于内容已迁移到独立页面 /about */}
         </div>
       </main>
-
-      <ApplyButton onClick={() => setIsApplyModalOpen(true)} />
-      <ApplyModal 
-        isOpen={isApplyModalOpen} 
-        onClose={() => setIsApplyModalOpen(false)} 
-      />
     </div>
   );
 };

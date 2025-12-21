@@ -1,10 +1,6 @@
 import React from 'react';
 
-interface AboutSectionProps {
-  onApplyClick?: () => void;
-}
-
-export const AboutSection: React.FC<AboutSectionProps> = ({ onApplyClick }) => {
+export const AboutSection: React.FC = () => {
   return (
     <section id="about" className="mt-20">
       <div className="bg-white rounded-[2rem] p-8 md:p-12 shadow-[0_8px_40px_rgba(0,0,0,0.08)]">
@@ -31,9 +27,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onApplyClick }) => {
             </p>
           </div>
           <div className="bg-gray-50 rounded-xl p-5">
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">风格与设计</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-2">我们如何运作</h3>
             <p className="text-gray-600 leading-relaxed">
-              采用 Apple 风的极简设计：大圆角、柔和阴影、Inter 字体与充足留白，信息清晰、节奏平稳。
+              我们不排名，只呈现真实的建造者与团队。你可以提交条目与更新，我们做轻度编辑与去重，并定期整理新闻动态，帮助你找到同行者。
             </p>
           </div>
         </div>
@@ -44,17 +40,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onApplyClick }) => {
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
+            title="提交申请请先查看文档，并在文档内进行提交"
           >
             查看文档
           </a>
-          {onApplyClick && (
-            <button
-              onClick={onApplyClick}
-              className="inline-flex items-center px-6 py-3 rounded-full bg-gray-900 text-white text-sm font-medium hover:bg-black transition-colors"
-            >
-              申请加入
-            </button>
-          )}
+          <p className="text-xs text-gray-500 mt-2">提交申请请先查看文档，并在文档内进行提交</p>
         </div>
       </div>
     </section>

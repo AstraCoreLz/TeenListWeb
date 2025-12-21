@@ -4,6 +4,7 @@ export interface Team {
   description: string;
   logo: string;
   website: string;
+  email?: string;
   tags: string[];
   location: string;
   size: string;
@@ -14,6 +15,11 @@ export interface Team {
   socials: {
     twitter?: string;
     github?: string;
+    linkedin?: string;
+    instagram?: string;
+    youtube?: string;
+    bilibili?: string;
+    bonjour?: string;
     website?: string;
   };
   news: {
@@ -33,6 +39,7 @@ export interface Individual {
   tags: string[];
   age?: number;
   location: string;
+  email?: string;
   projects: {
     name: string;
     url?: string;
@@ -42,6 +49,10 @@ export interface Individual {
     twitter?: string;
     github?: string;
     linkedin?: string;
+    instagram?: string;
+    youtube?: string;
+    bilibili?: string;
+    bonjour?: string;
     website?: string;
   };
 }

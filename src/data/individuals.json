@@ -23,139 +23,31 @@
     ],
     "socials": {
       "github": "https://github.com/chen-innovation",
+      "bonjour": "https://bonjour.bio/astracore",
       "twitter": "https://twitter.com/chen_ai_teen",
       "website": "https://chen-innovation.example.com"
     }
   },
   {
     "id": "2",
-    "name": "林设计",
-    "role": "UI/UX设计师",
-    "bio": "15岁设计师，专注于用户体验设计。相信好的设计能够改变世界，让技术更人性化。",
-    "avatar": "https://via.placeholder.com/150x150/EC4899/FFFFFF?text=林",
-    "coverImage": "https://via.placeholder.com/400x200/FCE7F3/EC4899?text=Design+Thinking",
-    "tags": ["Figma", "用户体验", "界面设计", "原型制作"],
-    "age": 15,
+    "name": "BillW Gong",
+    "role": "Web Dev & Buinder and Founder",
+    "bio": "14y.o. Turning ideas into too Is that solve real probelms.",
+    "avatar": "https://lz-s.cn/b.jpg",
+    "coverImage": "src/data/hotpot/t.png",
+    "tags": ["开发者", "创始人", "活动组织"],
+    "age": 14,
     "location": "深圳",
     "projects": [
       {
-        "name": "学习应用重设计",
-        "url": "https://dribbble.com/lin-redesign",
-        "description": "重新设计流行的学习应用，提升用户体验"
-      },
-      {
-        "name": "青少年心理健康App",
-        "description": "为青少年设计的心理健康支持应用"
+        "name": "AstraCore量子星辰",
+        "url": "https://lz-s.cn",
+        "description": "AstraCore量子星辰是一个由青少年主导的多元化社群，我们致力于让青少年们的想法及ideas落地。"
       }
     ],
     "socials": {
-      "twitter": "https://twitter.com/lin_design_teen",
-      "website": "https://lin-design.example.com"
-    }
-  },
-  {
-    "id": "3",
-    "name": "王游戏",
-    "role": "游戏开发者",
-    "bio": "17岁游戏开发者，用Unity和C#创造有趣的教育游戏。相信游戏化学习的力量。",
-    "avatar": "https://via.placeholder.com/150x150/10B981/FFFFFF?text=王",
-    "coverImage": "https://via.placeholder.com/400x200/D1FAE5/10B981?text=Game+Development",
-    "tags": ["Unity", "C#", "游戏设计", "教育游戏"],
-    "age": 17,
-    "location": "北京",
-    "projects": [
-      {
-        "name": "数学冒险岛",
-        "url": "https://math-island.game",
-        "description": "通过冒险游戏学习数学概念"
-      },
-      {
-        "name": "编程解谜游戏",
-        "description": "通过解谜学习编程逻辑的游戏"
-      }
-    ],
-    "socials": {
-      "github": "https://github.com/wang-game-dev",
-      "twitter": "https://twitter.com/wang_games_teen"
-    }
-  },
-  {
-    "id": "4",
-    "name": "张环保",
-    "role": "环保科技创业者",
-    "bio": "16岁环保倡导者，开发智能垃圾分类系统。致力于用科技解决环境问题。",
-    "avatar": "https://via.placeholder.com/150x150/059669/FFFFFF?text=张",
-    "coverImage": "https://via.placeholder.com/400x200/D1FAE5/059669?text=Green+Tech",
-    "tags": ["环保科技", "IoT", "可持续发展", "Arduino"],
-    "age": 16,
-    "location": "杭州",
-    "projects": [
-      {
-        "name": "智能垃圾分类箱",
-        "description": "基于图像识别的智能垃圾分类系统"
-      },
-      {
-        "name": "碳足迹计算器",
-        "url": "https://carbon-calculator.example.com",
-        "description": "帮助青少年了解和减少碳足迹"
-      }
-    ],
-    "socials": {
-      "github": "https://github.com/zhang-green",
-      "twitter": "https://twitter.com/zhang_green_teen",
-      "website": "https://zhang-green.example.com"
-    }
-  },
-  {
-    "id": "5",
-    "name": "李创客",
-    "role": "硬件开发者",
-    "bio": "15岁硬件爱好者，擅长Arduino和树莓派开发。喜欢创造有用的硬件项目。",
-    "avatar": "https://via.placeholder.com/150x150/F59E0B/FFFFFF?text=李",
-    "coverImage": "https://via.placeholder.com/400x200/FEF3C7/F59E0B?text=Hardware+Hack",
-    "tags": ["Arduino", "树莓派", "硬件开发", "IoT"],
-    "age": 15,
-    "location": "成都",
-    "projects": [
-      {
-        "name": "智能家居控制器",
-        "description": "基于Arduino的智能家居控制系统"
-      },
-      {
-        "name": "植物监测器",
-        "description": "监测植物生长环境的智能设备"
-      }
-    ],
-    "socials": {
-      "github": "https://github.com/li-maker",
-      "twitter": "https://twitter.com/li_maker_teen"
-    }
-  },
-  {
-    "id": "6",
-    "name": "赵音乐",
-    "role": "音乐科技开发者",
-    "bio": "17岁音乐和科技爱好者，开发音乐创作工具和音频处理应用。",
-    "avatar": "https://via.placeholder.com/150x150/8B5CF6/FFFFFF?text=赵",
-    "coverImage": "https://via.placeholder.com/400x200/EDE9FE/8B5CF6?text=Music+Tech",
-    "tags": ["音频处理", "音乐制作", "Web Audio", "创意编程"],
-    "age": 17,
-    "location": "广州",
-    "projects": [
-      {
-        "name": "在线音乐制作器",
-        "url": "https://music-maker.example.com",
-        "description": "基于Web Audio的音乐创作工具"
-      },
-      {
-        "name": "AI音乐生成器",
-        "description": "使用AI生成个性化音乐"
-      }
-    ],
-    "socials": {
-      "github": "https://github.com/zhao-music",
-      "twitter": "https://twitter.com/zhao_music_teen",
-      "website": "https://zhao-music.example.com"
+      "twitter": "https://twitter.com/yankaxh1207",
+      "website": "https://billwblog.top/"
     }
   }
 ]
