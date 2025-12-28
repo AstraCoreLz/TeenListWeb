@@ -182,7 +182,17 @@ export const IndividualCard: React.FC<IndividualCardProps> = ({ individual }) =>
           )}
           {individual.socials.bonjour && (
             <a href={individual.socials.bonjour} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 transition-colors">
-              <img src="/src/data/bonjour_w.png" alt="Bonjour" className="w-5 h-5 rounded" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }} />
+              <img
+                src="https://lz-s.cn/B_logo.png"
+                alt="Bonjour"
+                className="w-5 h-5 rounded"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                  const sibling = (e.currentTarget.nextElementSibling as HTMLElement | null);
+                  if (sibling) sibling.classList.remove('hidden');
+                }}
+              />
+              <span className="hidden w-5 h-5 rounded bg-gray-900 text-white text-[10px] leading-[20px] text-center">B</span>
             </a>
           )}
         </div>

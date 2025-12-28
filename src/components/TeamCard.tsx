@@ -152,7 +152,17 @@ export const TeamCard: React.FC<TeamCardProps> = ({ team }) => {
           )}
           {team.socials.bonjour && (
             <a href={team.socials.bonjour} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-600 transition-colors" aria-label="Bonjour">
-              <img src="/src/data/bonjour_w.png" alt="Bonjour" className="w-4 h-4 rounded" onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }} />
+              <img
+                src="https://lz-s.cn/B_logo.png"
+                alt="Bonjour"
+                className="w-4 h-4 rounded"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                  const sibling = (e.currentTarget.nextElementSibling as HTMLElement | null);
+                  if (sibling) sibling.classList.remove('hidden');
+                }}
+              />
+              <span className="hidden w-4 h-4 rounded bg-gray-900 text-white text-[9px] leading-[16px] text-center">B</span>
             </a>
           )}
         </div>
